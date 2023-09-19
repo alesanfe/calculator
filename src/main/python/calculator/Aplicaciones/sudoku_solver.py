@@ -625,7 +625,8 @@ def sudoku():
     
     sudoku.mainloop()
 
-sudoku()
+if __name__ == "__main__":
+    sudoku()
 
 
 

@@ -1,7 +1,7 @@
 from math import *
 from tkinter import *
 
-from Tool import Math
+from Tool import math
 
 
 def create_button(text, command, row, column, width=3):
@@ -385,7 +385,7 @@ def borrar():
 
 
 actions = {
-    "R->G": lambda: radians_to_degrees(),"π": lambda: numberScreen.set(Math.pi()),"^": lambda: raised(numberScreen.get()),
+    "R->G": lambda: radians_to_degrees(),"π": lambda: numberScreen.set(Math.pi()), "^": lambda: raised(numberScreen.get()),
 
 }
 
